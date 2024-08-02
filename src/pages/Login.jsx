@@ -90,6 +90,27 @@ const Login = () => {
               Register Now
             </Link>
           </form>
+          <div className="info-card">
+            <h4>Login Examples</h4>
+            <div className="info-item">
+              <strong>Login as Employer:</strong>
+              <p>
+                Email: <code>a@a.com</code>
+              </p>
+              <p>
+                Password: <code>123456789</code>
+              </p>
+            </div>
+            <div className="info-item">
+              <strong>Login as Job Seeker:</strong>
+              <p>
+                Email: <code>a@aa.com</code>
+              </p>
+              <p>
+                Password: <code>123456789</code>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>

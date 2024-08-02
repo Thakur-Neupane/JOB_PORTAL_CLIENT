@@ -335,6 +335,42 @@ footer div ul a span {
   }
 }
 
+.info-card {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.info-card h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.info-item strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.info-item code {
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
 .hero {
   min-height: 800px;
   display: flex;
